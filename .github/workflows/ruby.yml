@@ -11,6 +11,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+    - name: npm install
+      run: npm start
     - name: kobiton
       run: npm install
     - name: kobiton2
