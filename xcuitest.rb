@@ -60,4 +60,5 @@ configuration_json = device.to_json
 request.body = configuration_json
 response = https.request(request)
 puts response.read_body
+sleep(4.minutes)
 }
