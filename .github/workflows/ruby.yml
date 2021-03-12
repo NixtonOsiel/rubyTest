@@ -10,5 +10,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+
+    - name: kobiton
+      run: npm install
     - name: kobiton2
-      run: ruby xcuitest.rb
+      run: node xcuitest.js
