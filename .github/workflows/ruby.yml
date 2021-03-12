@@ -14,8 +14,5 @@ jobs:
     - name: kobiton
       run: npm install
 
-    - name: npm star
-      run: npm start
-
     - name: kobiton2
       run: node xcuitest.js
